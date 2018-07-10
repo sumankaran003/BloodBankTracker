@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+
+        android:fadingEdgeLength="21dp"
+        android:paddingLeft="-21dp"
+        android:paddingRight="-21dp"
+        android:shadowRadius="20.0"
+        android:src="@drawable/background" />
+
+
+</LinearLayout>
